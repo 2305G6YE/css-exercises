@@ -1,5 +1,9 @@
 /* styles.css */
 
 div {
-  colour: red;
+  background-colour: red;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
 }
