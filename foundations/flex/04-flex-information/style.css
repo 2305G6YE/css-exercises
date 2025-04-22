@@ -3,8 +3,8 @@ body {
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: auto;
 }
 
 .title {
@@ -23,4 +23,27 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.image-compilation {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 52px;
+  justify-content: center;
+}
+
+.images {
+  display: flex;
+  flex-flow: column wrap;
+  flex-basis: 200px;
+}
+
+.text {
+  text-align: center;
 }
